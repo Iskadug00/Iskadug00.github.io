@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.nav{
+	background:black ;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	color:#ff7200 ;
+	font-size:30px ;
+	font-family:serif ;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+.navlinks ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navlinks ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top:27px ;
+	font-size:14px ;
+}
+.navlinks ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: serif;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+.navlinks ul li a:hover{
+	color: #ff7200;
+}
+.container{
+	background-image: linear-gradient(to top,rgba(145, 146, 122, 0.62),rgba(145, 146, 122, 0.2)),url(img/papa.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	height: 695px;
+	text-align: center;
+}
+.container h1{
+	font-size: 100;
+	padding-top: 120px;
+	color: #ff7200;
+}
+.container p{
+	color: black;
+	padding-top: 50px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.order{
+	background-color: #ff7200;
+	padding: 15px 10px;
+	border: none;
+	font-size: 15;
+	border-radius: 3px;
+	margin-top: 60px;
+	transition: 0.3s ease;
+}
+.order a{
+	text-decoration: none;
+	color: white;
+}
+.order:hover{
+	background-color: black	;
+}
+.container2{
+	margin: 30px 20px;
+	border: 2px solid #ff7200;
+}
+.welcome{
+	padding: 30px 60px;
+	margin: 10px 0 0 40px;
+}
+.container2 h1{
+	color: #ff7200;
+	text-align: center;
+	padding-top: 30px;
+}
+.container2 h3{
+	color: #ff7200;
+}
+.AboutMyPlants{
+	display: flex;
+	float: right;
+	margin: 50px 100px 0 0;
+}
+.container3{
+	border: solid #ff7200;
+	margin: 30px 20px;
+	padding-bottom: 150px;
+
+}
+.plant{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+.plant h2{
+	color: #ff7200;
+}
+.snake, .spider, .monstera{
+	border: 2px solid #ff7200;
+	padding: 20px 30px;
+	text-align: center;
+}
+.plant ul li{
+	list-style-type: none;
+	line-height: 40px;
+}
+.buy{
+	margin-top: 30px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 1px;
+	background-color: #ff7200;
+	transition: 0.3s ease;
+}
